@@ -1,0 +1,100 @@
+* {
+    position: relative;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+ul {
+    list-style: none;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+a {
+    text-decoration: none;
+}
+header {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    z-index: 2;
+    padding: 15px 0;
+    border-bottom: 2px solid #ffffff71;
+}
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+}
+header .logo {
+    display: flex;
+    align-items: center;
+}
+header .logo span {
+    color: white;
+    font-size: 25px;
+    margin: 10px;
+}
+header .header_rights_content {
+    display: flex;
+    align-items: center;
+}
+header .header_rights_content .header_menu ul {
+    display: flex;
+    align-items: center;
+}
+header .header_rights_content .header_menu ul li {
+    margin-right: 30px;
+}
+header .header_rights_content .header_menu ul li a {
+    color: white;
+    font-size: 20px;
+} 
+.header_contact_us a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 10px 30px;
+    background-color: rgb(0, 102, 255);
+    color: white;
+}
+.first_text p{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    margin-top: -100px;
+    font-size: 60px;
+    color: white;
+}
+.lorem_text {
+    color: white;
+    margin-top: -300px;
+    display: flex;
+    align-items: center;
+    margin-left: 310px;
+    font-size: 30px;
+}
+.first_text  { 
+    color: white;
+    margin-left: 310px;
+    display: flex;
+    margin-top: -350px;
+}
+.get_started a {
+    color: #ffffff;
+    background-color: rgb(0, 102, 255);
+    padding: 10px 25px;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    margin: 10px;
+    margin-left: 310px;
+    margin-top: 450px;
+}
